@@ -1,0 +1,12 @@
+dist: xenial
+language: go
+go:
+  - "1.11"
+addons:
+  artifacts:
+    paths:
+      - ambex
+    target_paths:
+      - ambex/$TRAVIS_TAG/$(go env GOOS)/$(go env GOARCH)
+    debug: true
+    s3_region: "us-east-1"
