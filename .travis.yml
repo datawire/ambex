@@ -6,6 +6,8 @@ go:
 before_install:
   - curl https://glide.sh/get | sh
   - glide --version
+  - make --version
+  - glide install
 
 notifications:
   email: false
