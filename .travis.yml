@@ -4,9 +4,9 @@ go:
   - "1.11.x"
 
 before_install:
-  - curl https://glide.sh/get | sh
-  - glide --version
-  - make --version
+  - sudo add-apt-repository ppa:masterminds/glide -y
+  - sudo apt-get update -q
+  - sudo apt-get install glide -y
   - glide install
 
 notifications:
