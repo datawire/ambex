@@ -14,9 +14,8 @@ install:
 - glide install
 
 script:
+- make image
 - "./smoketest.sh"
-- make ambex
-- echo ${TRAVIS_TAG}
 
 before_deploy:
 - mkdir -p ambex-s3/ambex/${TRAVIS_TAG}/
