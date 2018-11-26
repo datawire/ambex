@@ -20,7 +20,7 @@ script:
 
 before_deploy:
 - mkdir -p ambex-s3/ambex/${TRAVIS_TAG}/
-- cp ambex-for-image ambex-s3/ambex/${TRAVIS_TAG}/ambex
+- cp ambex_for_image ambex-s3/ambex/${TRAVIS_TAG}/ambex
 
 deploy:
   provider: s3
