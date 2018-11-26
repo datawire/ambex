@@ -14,7 +14,7 @@ install:
   - glide install
 
 script:
-  - make
+  - ./smoketest.sh
 
 notifications:
   email: false
