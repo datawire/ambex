@@ -11,6 +11,7 @@ require (
 
 // Pin versions of external commands
 replace (
+	contrib.go.opencensus.io/exporter/ocagent => contrib.go.opencensus.io/exporter/ocagent v0.4.7
 	github.com/datawire/teleproxy => github.com/datawire/teleproxy v0.3.16
-	github.com/golangci/golangci-lint => github.com/golangci/golangci-lint v1.17.1
+	github.com/golangci/golangci-lint => github.com/golangci/golangci-lint v1.18.0
 )

@@ -38,7 +38,7 @@ Rather than do all that logic by hand, we'll use the Envoy `go-control-plane` fo
 Running Ambex
 =============
 
-You'll need the Go toolchain and [Glide](https://glide.sh/).
+You'll need the Go toolchain.
 
 Linux
 -----
