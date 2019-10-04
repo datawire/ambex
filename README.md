@@ -1,3 +1,11 @@
+# NOTHING TO SEE HERE, MOVE ALONG.
+
+The `ambex` repo has been merged into 
+https://github.com/datawire/ambassador,
+You'll find it mostly in the `go/ambex` directory there.
+
+# NOTHING TO SEE HERE, MOVE ALONG.
+
 Ambex: Ambassador Experimental ADS service
 ==========================================
 
